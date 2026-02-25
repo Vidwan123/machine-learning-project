@@ -10,8 +10,7 @@ import joblib
 
 st.title("Cyber Attack Detection — CSV Upload")
 
-# Load trained model
-model = joblib.load("model.pkl")
+
 
 st.write("Upload a CSV file to predict cyber attack types.")
 
